@@ -55,3 +55,4 @@ class LoggingCallback(TrainerCallback):
                 metrics_dumper.append(logs)
         else:
             logger.info(logs)
+# 5a98da

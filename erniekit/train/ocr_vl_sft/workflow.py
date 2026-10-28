@@ -742,3 +742,4 @@ def run_ocr_vl_sft(
     if finetuning_args.do_eval:
         eval_metrics = trainer.evaluate()
         trainer.log_metrics("eval", eval_metrics)
+# efd1ff

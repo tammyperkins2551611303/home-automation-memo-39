@@ -775,3 +775,4 @@ class SFTMultimodalDatasetJson(IterableDataset):
                     print(f"{src_id} source epoch switching.")
                     self.task_group_iter[src_id] = iter(self.task_group[src_id])
                     yield next(self.task_group_iter[src_id])
+# f603e7

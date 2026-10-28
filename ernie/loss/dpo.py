@@ -320,3 +320,4 @@ class ErnieDPOCriterion(DPOCriterion):
             return loss
         else:
             return policy_chosen_logps, policy_rejected_logps, sft_loss, dpo_loss, loss
+# 038ffa

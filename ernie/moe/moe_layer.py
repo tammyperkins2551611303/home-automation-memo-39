@@ -1036,3 +1036,4 @@ class MOELayer(nn.Layer):
                 orig_shape[:-1] + [combined_output.shape[-1]]
             )
         return combined_output, combine_weights, router_loss2, gate_logits
+# 638a85

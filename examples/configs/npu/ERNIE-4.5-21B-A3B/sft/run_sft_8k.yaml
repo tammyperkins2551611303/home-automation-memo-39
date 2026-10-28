@@ -92,3 +92,5 @@ use_sparse_flash_attn: false
 use_fused_head_and_loss_fn: true
 use_sparse_head_and_loss_fn: true
 pipeline_parallel_config: enable_delay_scale_loss enable_release_grads disable_batch_p2p_comm  disable_partial_send_recv
+
+# 7db25b

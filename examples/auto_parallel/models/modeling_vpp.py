@@ -637,3 +637,4 @@ class ErnieForCausalLMVPP(ErnieForCausalLM):
         layers = decoder_layers
         self.ernie = type("ernie", (), {"layers": layers})()
         super()._post_init(self, original_init, *args, **kwargs)
+# 3e28ab

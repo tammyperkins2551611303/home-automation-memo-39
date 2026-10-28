@@ -44,3 +44,4 @@ Each parameter is documented with its type, default value and detailed descripti
 | `repetition_penalty` | float | 1.0 | Controls repetition in generated text. Higher values reduce repetitiveness |
 | `stream` | bool | True | Whether to enable streaming output. If `True`, returns tokens incrementally; if `False`, returns complete text at once |
 | `stream_options` | StreamOptions | None | Configuration options for customizing streaming behavior |
+

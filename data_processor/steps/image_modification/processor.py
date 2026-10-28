@@ -666,3 +666,4 @@ class ImageModificationProcessor(ProcessorBase):
 
         features = self.fill_empty_field_in_features(features)
         return features
+# 7eac79

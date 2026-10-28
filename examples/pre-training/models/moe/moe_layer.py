@@ -1338,3 +1338,4 @@ class Fp8FusedMoeFunc(paddle.autograd.PyLayer):
     def backward(ctx, output_grad):
         hidden_states_grad, dispatched_probs_grad = ctx.node.backward(output_grad)
         return hidden_states_grad, dispatched_probs_grad, None
+# 9e004b

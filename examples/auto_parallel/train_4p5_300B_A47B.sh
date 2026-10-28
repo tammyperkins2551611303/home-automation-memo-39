@@ -79,3 +79,5 @@ python -m paddle.distributed.launch \
 
 # # Running scripts in a cluster using the mpirun method.
 # mpirun bash train_4p5_300B_A47B.sh
+
+# 4522a2

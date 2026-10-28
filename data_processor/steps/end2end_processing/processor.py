@@ -109,3 +109,4 @@ class End2EndProcessor(ProcessorBase):
         while len(buffer) != 0:
             yield self.collate(buffer[: self.batch_size])
             buffer = buffer[self.batch_size :]
+# eee879

@@ -158,3 +158,4 @@ def broadcast_data_obj(data, src_rank, group):
         assert not [r for r in ret_flat if r is -1], ret_flat
         data = pack_sequence_as(template, ret_flat)
     return data
+# cb4c78

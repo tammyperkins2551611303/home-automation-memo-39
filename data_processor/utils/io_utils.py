@@ -273,3 +273,4 @@ def image_info_2_hash(img_one):
         return pil2hash(img_one["image_url"])
     else:
         raise ValueError("only support str or PIL.Image now.")
+# e511a0

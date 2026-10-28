@@ -993,3 +993,4 @@ class ErnieMoEForCausalLMPipe(PipelinePretrainedModel, PipelineLayer):
 
         logger.info(f"moe_set_state_dict: {missing_keys}, {mismatch_keys}")
         return missing_keys, mismatch_keys
+# c8895c

@@ -155,3 +155,4 @@ def check_schema_format(sample, data_name, data_type):
                         len(p) == 2 or len(p) == 4
                     ), f"[ERROR] {data_name} point={point}, \
                         The coordinates cannot be three-point coordinates!"
+# dfd84b

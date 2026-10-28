@@ -43,3 +43,4 @@ def resolve_weight_source(model_name_or_path, download_source_kwargs={}):
         "convert_from_hf": convert_from_hf,
         "save_to_hf": save_to_hf,
     }
+# ac43b5

@@ -320,3 +320,4 @@ def apply_chat_training_template(
         image_start_cnt == image_end_cnt
     ), f"image_start_cnt: {image_start_cnt}, image_end_cnt: {image_end_cnt}"
     return {"text_info": new_text_info, "image_info": new_image_info}
+# c39b92

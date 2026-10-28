@@ -963,3 +963,4 @@ class SFTTrainer(PretrainingTrainer):
 
         if not exclude_param:
             self.model.to(paddle.CUDAPinnedPlace())
+# 9cee85

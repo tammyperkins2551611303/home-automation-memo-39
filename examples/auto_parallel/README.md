@@ -28,3 +28,4 @@ should be replaced according to the real environment.
 
 
 The toolkit provides an auto-parallel solution for ERNIE-4.5 pre-training, including the hybrid parallelism training strategy. More advanced optimizations are on the way.
+

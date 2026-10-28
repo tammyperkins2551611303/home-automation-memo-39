@@ -22,3 +22,5 @@ huggingface-cli download baidu/ERNIE-4.5-300B-A47B-Paddle --local-dir baidu/ERNI
 
 NNODES=2 MASTER_ADDR=$1 MASTER_PORT=$2 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \
     erniekit train examples/configs/ERNIE-4.5-300B-A47B/sft/run_sft_fp8_8k.yaml
+
+# f652e2

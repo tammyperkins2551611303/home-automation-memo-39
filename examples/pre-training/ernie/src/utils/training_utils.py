@@ -39,3 +39,4 @@ def reset_per_device_batch_size(global_batch_size, per_device_train_batch_size, 
             f"dp_worldsize={dataset_world_size}, accumulate_steps={gradient_accumulation_steps} "
         )
     return per_device_train_batch_size, gradient_accumulation_steps
+# a7a80e

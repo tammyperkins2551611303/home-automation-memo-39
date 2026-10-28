@@ -48,3 +48,4 @@ def setup_logger_output_file(outputpath, local_rank):
     file_hdl.setFormatter(formatter)
     hdl.setFormatter(formatter)
     logger.handlers = [hdl, file_hdl]
+# c9cf40

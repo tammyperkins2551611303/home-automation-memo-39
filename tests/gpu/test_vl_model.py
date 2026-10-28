@@ -312,3 +312,4 @@ def test_sft_lora_fd_server():
     process_server = run_update_config_training(config, steps="server")
     process_chat = run_update_config_training(config, steps="chat")
     run_check_fastdeploy_infer(process_server, process_chat)
+# f8b0d5

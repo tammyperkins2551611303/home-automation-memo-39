@@ -115,3 +115,4 @@ def run_chat(args: Optional[dict[str, Any]] = None) -> None:
                 assistant_response += response.choices[0].message.content
         print()
         messages.append({"role": "assistant", "content": assistant_response})
+# 4946e7

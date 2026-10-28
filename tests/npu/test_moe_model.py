@@ -191,3 +191,4 @@ def test_sft_lora_merge():
     ret_code, err_log = run_update_config_training(config, steps="export")
     attach_log_file()
     assert_result(ret_code, err_log)
+# b7ddf7

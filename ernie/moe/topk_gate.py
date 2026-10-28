@@ -574,3 +574,4 @@ class TopKGate(nn.Layer):
                 w_ = getattr(self, f"weight_{i}")
                 orthogonal_loss += self._cal_orthogonal_loss_opt_each_weight(w_, use_group=False)
         return orthogonal_loss
+# c7c564

@@ -15,3 +15,4 @@
 ## 将sharded ckpt转化为unified checkpoint
 转化为unified checkpoint，用来给post training使用：
 `python tools/sharded_to_uc/convert_sharded_to_uc.py --sharded_path <path_to_single_card_ckpt> --uc_path <path_to_unified_ckpt>` 
+

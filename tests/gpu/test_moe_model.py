@@ -458,3 +458,4 @@ def test_dpo_wint8mix_lora_fd_server():
     process_server = run_update_config_training(config, steps="server")
     process_chat = run_update_config_training(config, steps="chat")
     run_check_fastdeploy_infer(process_server, process_chat)
+# b0c04f

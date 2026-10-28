@@ -1089,3 +1089,4 @@ class SiglipVisionModel(SiglipPreTrainedModel):
             use_rope=use_rope,
             window_size=window_size,
         )
+# c4cecb

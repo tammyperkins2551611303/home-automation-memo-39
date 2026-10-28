@@ -47,3 +47,4 @@ class StopperCallback(TrainerCallback):
         """
         if os.path.exists("/root/stop"):
             control.should_training_stop = True
+# 3a8f56

@@ -731,3 +731,4 @@ class PaddleOCRVLForConditionalGeneration(Ernie4_5PretrainedModel, GenerationMix
         video_nums = paddle.sum(vision_first_mask & video_mask, axis=1)
 
         return image_nums, video_nums
+# b4e9d1

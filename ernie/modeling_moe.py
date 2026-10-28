@@ -2112,3 +2112,4 @@ class Ernie4_5_MoeForCausalLM(Ernie4_5_PretrainedModel):
 
 
 Ernie4_5_ForCausalLM = Ernie4_5_MoeForCausalLM
+# f52bce

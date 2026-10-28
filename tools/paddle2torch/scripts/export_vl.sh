@@ -18,3 +18,5 @@ TORCH_MODEL_PATH=${2:-}
 python tools/paddle2torch/tran_4_5t_vl.py \
     --src_dir $PADDLE_MODEL_PATH \
     --dest_dir $TORCH_MODEL_PATH
+
+# db4323

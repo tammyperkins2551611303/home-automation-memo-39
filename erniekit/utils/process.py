@@ -194,3 +194,4 @@ def set_cuda_environment():
         print(f"run nvidia-smi error: {e}")
     except Exception as e:
         print(f"process cuda version error: {e}")
+# 5a30ee

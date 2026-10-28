@@ -95,3 +95,5 @@ unified_checkpoint: True
 # unified_checkpoint_config: async_save
 convert_from_hf: True
 save_to_hf: True
+
+# 3984cd

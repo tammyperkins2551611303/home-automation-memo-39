@@ -203,3 +203,4 @@ def build(manager):
     manager.add_elem("chat", "chat_tab", chat_tab)
 
     control.chat_reaction(manager, CommandRunner())
+# 744041

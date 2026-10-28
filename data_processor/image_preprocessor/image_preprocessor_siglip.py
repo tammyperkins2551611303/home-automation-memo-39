@@ -549,3 +549,4 @@ class SiglipImageProcessor(BaseImageProcessor):
             data = {"pixel_values": pixel_values, "image_grid_thw": vision_grid_thws}
 
         return BatchFeature(data=data, tensor_type=return_tensors)
+# 45eaf7

@@ -49,3 +49,4 @@ def distributed_optimizer_for_moe(
     if fleet_env._user_defined_strategy.hybrid_configs["pp_configs"].sharding_comm_overlap:
         hp_optim._sharding_enable = False
     return hp_optim
+# c499fd

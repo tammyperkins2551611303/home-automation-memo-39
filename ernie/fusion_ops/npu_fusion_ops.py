@@ -84,3 +84,4 @@ def npu_cal_aux_loss_func(
     if scale is not None:
         l_aux = l_aux + (scale - 1) * l_aux.detach()
     return l_aux, None, None
+# c0f3c2

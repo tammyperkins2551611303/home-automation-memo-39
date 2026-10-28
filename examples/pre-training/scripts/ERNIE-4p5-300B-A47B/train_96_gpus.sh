@@ -43,3 +43,5 @@ python -m paddle.distributed.launch \
     --run_mode=collective \
     ${script:-ernie/pretrain.py}  \
     --config yamls/ERNIE-4p5-300B-A47B/pretrain_96_gpus.yaml
+
+# b51b45

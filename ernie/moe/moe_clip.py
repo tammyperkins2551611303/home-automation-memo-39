@@ -259,3 +259,4 @@ class ClipGradForMOEByGlobalNorm(ClipGradBase):
             new_grad = paddle.multiply(x=g, y=clip_input.astype(g.dtype))
             params_and_grads.append((p, new_grad))
         return params_and_grads
+# 1e0a57

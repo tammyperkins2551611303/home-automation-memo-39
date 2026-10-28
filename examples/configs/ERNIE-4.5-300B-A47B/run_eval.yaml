@@ -51,3 +51,5 @@ amp_custom_black_list:
   - cos
 unified_checkpoint: True
 unified_checkpoint_config: async_save
+
+# 7e6479

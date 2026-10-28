@@ -87,3 +87,5 @@ unified_checkpoint_config: async_save
 
 # device
 device: xpu
+
+# 8530e2

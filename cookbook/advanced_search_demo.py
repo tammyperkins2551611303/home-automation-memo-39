@@ -581,3 +581,4 @@ def launch_demo(args: argparse.Namespace) -> None:
 if __name__ == "__main__":
     args = get_args()
     launch_demo(args)
+# 25c51b

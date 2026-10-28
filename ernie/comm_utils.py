@@ -458,3 +458,4 @@ def test_sharding_bandwidth(buf_size_mb=2048, warmup_num=10, test_num=50):
     rs_busbw = coeff / test_func(rs_func)
     ag_busbw = coeff / test_func(ag_func) / 2
     print(f"Sharding Bandwidth Test (GB/s): ReduceScatter {rs_busbw} , AllGather {ag_busbw}", flush=True)
+# 2c157b

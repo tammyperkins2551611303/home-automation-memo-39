@@ -92,3 +92,5 @@ tensor_parallel_output: false
 greedy_intokens: 1
 moe_multimodal_dispatch_use_allgather: "v2-alltoall"
 fuse_rms_norm: false
+
+# 827e5c

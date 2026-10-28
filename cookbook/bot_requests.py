@@ -398,3 +398,4 @@ class BotClient:
                 self.logger.info(f"请求失败，状态码: {response.status_code}")
                 self.logger.info(response.text)
         return results
+# 224ad9

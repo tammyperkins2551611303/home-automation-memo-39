@@ -599,3 +599,4 @@ class LossTracker:
     def reset_latest_plot_data(self):
         self.latest_plot_data = pd.DataFrame({"Step": [0], "Loss": [0]})
         self.log_path = None
+# bcc4df

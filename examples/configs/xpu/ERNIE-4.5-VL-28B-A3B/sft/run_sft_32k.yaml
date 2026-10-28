@@ -101,3 +101,5 @@ unified_checkpoint: true
 
 # device
 device: xpu
+
+# 2da902

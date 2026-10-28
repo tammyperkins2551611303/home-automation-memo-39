@@ -1671,3 +1671,4 @@ class ExpertsGroupGemmWLCHNode(ExpertsGroupGemmContiguousNode):
             x, tokens_per_expert, pow_2_scales=pow_2_scales
         )
         return out, scale
+# 8d4916

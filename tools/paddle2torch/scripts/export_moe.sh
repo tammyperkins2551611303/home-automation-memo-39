@@ -21,3 +21,5 @@ python tools/paddle2torch/tran_4_5t.py \
     --src_prefix "ernie." \
     --dst_prefix "model." \
     --use_moe
+
+# e4e5b3

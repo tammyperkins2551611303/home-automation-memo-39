@@ -1212,3 +1212,4 @@ class Ernie4_5_MoeForCausalLMPipe(PipelinePretrainedModel, PipelineLayer):
             loss_fn = ErniePretrainingCriterionPipe(config)
 
         return loss_fn
+# 543e29

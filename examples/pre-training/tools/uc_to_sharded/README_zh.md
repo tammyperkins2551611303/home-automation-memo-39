@@ -11,3 +11,4 @@
 
 ## 转换权重
 `python  tools/uc_to_sharded/convert_uc_to_sharded.py --org <path_to_pretrained_weights> --cur <path_to_checkpoint> --dst <path_to_converted_weights>`  
+

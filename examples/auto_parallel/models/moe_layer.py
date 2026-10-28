@@ -1274,3 +1274,4 @@ class TopKGateFused(nn.Layer):
             router_loss.stop_gradient = False
 
         return logits, global_capacity, router_loss, local_capacity
+# 3dd1b0

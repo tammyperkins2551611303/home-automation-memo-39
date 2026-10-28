@@ -37,3 +37,4 @@ class RefinedRecomputeCheckCallback(TrainerCallback):
     def on_step_begin(self, args, state, control, **kwargs):
         """on_step_begin"""
         global_rr_queue_log.check()
+# 11b3af

@@ -32,3 +32,5 @@ python ./tools/inference/infer_vl.py \
     --input_file ./tools/inference/data/multimodal-query-answers-list-small.jsonl \
     --output_file ./predict_out.json \
     --max_seq_length 8182 \
+
+# 889fb2

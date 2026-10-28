@@ -588,3 +588,4 @@ class RowSequenceParallelLinear(Layer):
         else:
             output = self.linear(input_parallel, self.weight, self.bias)
         return output
+# 9a9fc2

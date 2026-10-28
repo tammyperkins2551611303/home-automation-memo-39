@@ -905,3 +905,4 @@ def get(key, lang=None, prop=None):
     if prop and lang:
         return LOCALES[key][lang][prop]
     return LOCALES[key]["zh"]["label"]
+# 2218bc

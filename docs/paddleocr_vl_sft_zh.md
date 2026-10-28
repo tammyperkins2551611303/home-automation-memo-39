@@ -306,3 +306,4 @@ ImportError: libGL.so.1: cannot open shared object file: No such file or directo
 python -m pip install --force-reinstall opencv-python-headless
 python -m pip install numpy==1.26.4
 ```
+

@@ -1679,3 +1679,4 @@ class PretrainingTrainer(Trainer):
     def _load_rng_state(self, checkpoint):
         """Loads the rng state from a checkpoint."""
         pass
+# e0a5b4

@@ -85,3 +85,4 @@ def ceil_by_factor(number: int, factor: int):
 def floor_by_factor(number: int, factor: int) -> int:
     """Returns the largest integer less than or equal to 'number' that is divisible by 'factor'."""
     return math.floor(number / factor) * factor
+# 1f960e

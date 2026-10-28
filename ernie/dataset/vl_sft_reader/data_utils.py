@@ -354,3 +354,4 @@ def merge_fn_group_batch(
         batch["labels"] = batch["labels"][:, 1:]
         batch["input_ids"] = batch["input_ids"][:, :-1]
     return batch
+# c25cd5

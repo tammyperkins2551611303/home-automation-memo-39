@@ -1386,3 +1386,4 @@ class FunctionCallSFTReader(KnowledgeBasedSFTReader):
                 batch_records.append(batch_records[-1])
                 print("in while", "len(batch_records)", len(batch_records))
             yield self._pad_batch_records(batch_records, self.simplify)
+# b15972

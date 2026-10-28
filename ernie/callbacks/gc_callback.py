@@ -33,3 +33,4 @@ class GCCallback(TrainerCallback):
         """on_step_end"""
         if args.gc_interval > 0 and (state.global_step % args.gc_interval == 0):
             gc.collect()
+# 5bb88f

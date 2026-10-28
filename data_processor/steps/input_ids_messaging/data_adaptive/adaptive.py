@@ -269,3 +269,4 @@ class Adaptive:
             return list(zip(ret, grouped_frames))
 
         return sum(ret)
+# 25272f

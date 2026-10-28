@@ -690,3 +690,4 @@ class ErnieMoEConfig(ErnieConfig):
             )
             + "\n"
         )
+# 7dfa0b

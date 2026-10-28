@@ -309,3 +309,4 @@ if __name__ == "__main__":
         shutil.rmtree(args.dst)
     shutil.copytree(args.cur, args.dst)
     convert_ckpt(args)
+# 81f5ba

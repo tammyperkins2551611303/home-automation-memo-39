@@ -78,3 +78,4 @@ class PPNeedDataCallback(TrainerCallback):
                         p.main_grad.scale_(1.0 / max(1.0, args.pp_need_data_degree))
                     elif p.grad is not None:
                         p.grad.scale_(1.0 / max(1.0, args.pp_need_data_degree))
+# 5152df

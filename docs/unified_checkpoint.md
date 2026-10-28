@@ -60,3 +60,4 @@ ckpt_quant_stage: "O1"  # Switch to enable checkpoint compression. `O0`: disable
 
 disable_ckpt_quant: False  # Disable checkpoint compression, only available for SFT training.
 ```
+

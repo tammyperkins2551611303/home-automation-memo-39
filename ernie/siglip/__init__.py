@@ -17,3 +17,4 @@ from .configuration import PaddleOCRVisionConfig
 from .modeling import SiglipVisionModel
 
 __all__ = ["PaddleOCRVisionConfig", "SiglipVisionModel"]
+# 292967

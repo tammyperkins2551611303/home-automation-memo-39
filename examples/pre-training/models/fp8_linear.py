@@ -565,3 +565,4 @@ class Fp8FusedMlp(paddle.nn.Layer):
             Tensor: Output tensor after MLP transformation
         """
         return Fp8FusedMlpFunc.apply(x, self.w1, self.w2)
+# afddf2

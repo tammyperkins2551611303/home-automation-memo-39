@@ -525,3 +525,4 @@ class TopKGateFused(Top2Gate):
             router_loss = paddle.zeros([1], dtype="float32")
             router_loss.stop_gradient = False
         return logits, capacity, router_loss
+# d81c05

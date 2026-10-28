@@ -15,3 +15,4 @@ The Weight Only Quantization (WINT) approach uses **channelwise quantization** a
 <p align="center">
   <img src="https://github.com/user-attachments/assets/918f0029-48f1-4743-9ec0-e4b542108a84" width="600px"></a>
 </p>  
+

@@ -21,3 +21,5 @@ huggingface-cli download baidu/ERNIE-4.5-0.3B-Paddle --local-dir baidu/ERNIE-4.5
 # modelscope download --model PaddlePaddle/ERNIE-4.5-0.3B-Paddle --local_dir baidu/ERNIE-4.5-0.3B-Paddle
 
 CUDA_VISIBLE_DEVICES=0 erniekit train examples/configs/ERNIE-4.5-0.3B/sft/run_sft_128k.yaml
+
+# 8297c6

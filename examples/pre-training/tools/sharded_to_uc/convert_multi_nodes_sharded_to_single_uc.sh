@@ -15,3 +15,5 @@
 python gather_all_ckpt.py --org_path $1 --dst_path gathered_ckpt --hostfile_path ¥3
 python merge_shardig_ep.py --base_path gathered_ckpt --output_dir_path single_model
 python convert_sharded_to_uc.py --sharded_path single_model --uc_path $2
+
+# d4bedf

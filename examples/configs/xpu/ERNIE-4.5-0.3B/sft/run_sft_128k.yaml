@@ -85,3 +85,5 @@ unified_checkpoint_config: async_save
 # device
 device: xpu
 fuse_rms_norm: false
+
+# 21291a

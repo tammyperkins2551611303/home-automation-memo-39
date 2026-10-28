@@ -20,3 +20,4 @@ ENV http_proxy ""
 ENV https_proxy ""
 
 RUN pip config unset global.index-url
+

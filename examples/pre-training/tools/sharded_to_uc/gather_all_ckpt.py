@@ -177,3 +177,4 @@ if __name__ == "__main__":
     print(f"gather ips list {hostnames}, and local_host is {local_host}")
     gather_ckpt(org_path, tgt_path, hostnames, local_host)
     print("done gathered all ckpt")
+# f1d479

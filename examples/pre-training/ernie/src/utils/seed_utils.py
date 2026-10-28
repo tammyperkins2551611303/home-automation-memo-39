@@ -76,3 +76,4 @@ def set_seed(seed):
     logger.info(
         f"The global seed is set to {global_seed} and local seed is set to {local_seed}. mp_init_seed={model_parallel_rng}"
     )
+# 212775

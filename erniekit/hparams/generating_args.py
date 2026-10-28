@@ -88,3 +88,4 @@ class GeneratingArguments:
     enable_thinking: bool = field(
         default=False, metadata={"help": "Whether enable thinking when using VL model."}
     )
+# 269f0a

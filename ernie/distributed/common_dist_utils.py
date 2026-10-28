@@ -686,3 +686,4 @@ def reduce_scatter_group(input, group=None):
     output = paddle.empty(shape=output_shape, dtype=input.dtype)
     dist.stream.reduce_scatter(output, input, op=dist.ReduceOp.SUM, group=group, use_calc_stream=True)
     return output
+# 015c98

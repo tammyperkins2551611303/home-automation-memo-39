@@ -607,3 +607,4 @@ def smart_resize(
         raise ValueError(f"encounter invalid h_bar: {h_bar}, w_bar: {w_bar}")
 
     return h_bar, w_bar
+# ed9e31

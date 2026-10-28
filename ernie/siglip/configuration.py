@@ -93,3 +93,4 @@ class PaddleOCRVisionConfig(PretrainedConfig):
                 "use_sparse_flash_attn",
             ]
         )
+# 322087

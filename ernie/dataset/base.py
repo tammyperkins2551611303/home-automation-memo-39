@@ -277,3 +277,4 @@ class MultiSourceDataset(IterableDataset):
             except StopIteration:
                 task["iterator"] = iter(task["dataset"])
                 yield from task["iterator"]
+# 81c118

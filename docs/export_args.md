@@ -17,3 +17,4 @@
 | `compute_type` | str | bf16 | Computation type, options: "bf16", "fp16", "fp8", "wint8", "wint4/8" |
 | `tensor_parallel_degree` | int | 1 | Number of GPUs for tensor parallel configuration |
 | `max_shard_size` | int | 5 | Maximum size of each checkpoint file (in GB) | 
+

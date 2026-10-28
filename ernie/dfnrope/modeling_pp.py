@@ -129,3 +129,4 @@ class DFNRopeVisionTransformerPipe(DFNRopeVisionTransformerPretrainedModel):
             _type_: _description_
         """
         raise NotImplementedError
+# 1689dd

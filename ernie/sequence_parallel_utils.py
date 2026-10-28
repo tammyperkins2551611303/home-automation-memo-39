@@ -328,3 +328,4 @@ class MPScale(PyLayer):
     def backward(ctx, dout):
         """backward"""
         return dout
+# 5675dd

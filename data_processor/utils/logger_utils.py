@@ -124,3 +124,4 @@ def fancy_print_sft(input_ids, tokenizer, image_token_len, image_token_id):
     keywords = ["Picture", "Video", "<mask:0>", "<|endofprompt|>"]
     result = split_string_by_keywords(text, keywords, image_token_len)
     return "\n".join(result)
+# 48c88f

@@ -170,3 +170,4 @@ class ErnieMoEDPOTrainer(DPOTrainer):
 
             self.optimizer._dtype = paddle.get_default_dtype()
         return self.optimizer
+# 274e0f

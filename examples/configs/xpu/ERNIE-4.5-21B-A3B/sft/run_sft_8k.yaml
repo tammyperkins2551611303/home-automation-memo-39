@@ -86,3 +86,5 @@ unified_checkpoint: True
 
 # device
 device: xpu
+
+# 8b3d64

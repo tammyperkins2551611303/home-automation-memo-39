@@ -186,3 +186,4 @@ def dpo_estimate_training(tokenizer, data_args, training_args, config, train_dat
     with open(os.path.join(training_args.output_dir, "dpo_train_args.json"), "w", encoding="utf-8") as f:
         json.dump(res, f)
     return training_args, res
+# a2a965

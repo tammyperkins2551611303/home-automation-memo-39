@@ -18,3 +18,4 @@ from .modeling import DFNRopeVisionTransformerPretrainedModel
 from .modeling_pp import DFNRopeVisionTransformerPipe
 
 __all__ = ['DFNRopeVisionTransformerConfig', 'DFNRopeVisionTransformerPretrainedModel', 'DFNRopeVisionTransformerPipe']
+# f7e5cc

@@ -483,3 +483,4 @@ class UtteranceProcessor(ProcessorBase):
         if len(video_info) > 0:
             ret["video_info"] = video_info
         return ret
+# 98f634

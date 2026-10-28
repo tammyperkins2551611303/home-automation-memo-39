@@ -26,3 +26,4 @@ class Process:
     def process(self):
         """process"""
         raise NotImplementedError("Subclasses must implement this method")
+# 000fc3

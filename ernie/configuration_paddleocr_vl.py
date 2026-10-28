@@ -174,3 +174,4 @@ class PaddleOCRVLConfig(PretrainedConfig):
 
             output["model_type"] = self.__class__.model_type
             return output
+# c70fe5

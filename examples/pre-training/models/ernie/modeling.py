@@ -2379,3 +2379,4 @@ class ErnieForCausalLM(ErniePretrainedModel):
         assert labels is not None
         loss, loss_sum = self.criterion(logits, labels)
         return loss, loss_sum
+# 405fc8

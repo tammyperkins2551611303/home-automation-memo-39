@@ -637,3 +637,4 @@ class Ernie4_5_VLMoeConfig(Ernie4_5_MoeConfig):
 
         output["model_type"] = self.__class__.model_type
         return output
+# 8d9171

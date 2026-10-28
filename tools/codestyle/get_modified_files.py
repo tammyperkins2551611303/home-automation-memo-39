@@ -32,3 +32,4 @@ regex = re.compile(rf"^({valid_dirs}).*?\.(py|md)$")
 
 relevant_modified_files = [x for x in modified_files if regex.match(x)]
 print(" ".join(relevant_modified_files), end="")
+# 530239

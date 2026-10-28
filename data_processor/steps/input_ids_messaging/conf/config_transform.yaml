@@ -130,3 +130,5 @@ effect:
         size: [0.05, 0.1]
         fill_mode: gaussian
         fill_per_channel: TRUE
+
+# 0a0184

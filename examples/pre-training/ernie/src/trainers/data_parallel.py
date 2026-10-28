@@ -97,3 +97,4 @@ def sync_dp_moe_params_across_sharding(model: paddle.nn.Layer) -> None:
     for var in model_vars:
         var = var.contiguous()
         paddle.distributed.broadcast(var, src=src_rank, group=sharding_parallel_group, sync_op=True)
+# 4d3bd3

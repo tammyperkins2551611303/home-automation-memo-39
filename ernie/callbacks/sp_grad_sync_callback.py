@@ -72,3 +72,4 @@ class SPGradSyncCallback(TrainerCallback):
         """
         mp_group = fleet.get_hybrid_communicate_group().get_model_parallel_group()
         fused_allreduce_gradients_with_group(self._sp_params, group=mp_group, scale=1.0)  # sum not mean
+# 679100

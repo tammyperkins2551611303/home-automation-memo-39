@@ -1968,3 +1968,4 @@ class Ernie4_5Model(Ernie4_5PretrainedModel):
                     :, :, :, :mask_length
                 ].masked_fill(padding_mask, min_dtype)
         return causal_mask
+# 3b8e16

@@ -86,3 +86,5 @@ unified_checkpoint: True
 
 # device
 device: xpu
+
+# 49774a

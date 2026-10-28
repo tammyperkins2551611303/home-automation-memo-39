@@ -264,3 +264,4 @@ huggingface-cli download baidu/ERNIE-4.5-0.3B-Paddle --local-dir baidu/ERNIE-4.5
 erniekit server examples/configs/ERNIE-4.5-0.3B/run_chat.yaml
 erniekit chat examples/configs/ERNIE-4.5-0.3B/run_chat.yaml
 ```
+

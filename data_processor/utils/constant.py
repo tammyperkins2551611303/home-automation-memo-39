@@ -53,3 +53,4 @@ IDS_TYPE_FLAG = {"text": 0, "image": 1, "video": 2}
 
 
 IMAGE_TYPE_FLAG = {"image": 0, "video": 1, "padded_image": 2}
+# 8fad16

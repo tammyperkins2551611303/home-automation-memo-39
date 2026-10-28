@@ -21,3 +21,5 @@ huggingface-cli download baidu/ERNIE-4.5-0.3B-Paddle --local-dir baidu/ERNIE-4.5
 # modelscope download --model PaddlePaddle/ERNIE-4.5-0.3B-Paddle --local_dir baidu/ERNIE-4.5-0.3B-Paddle
 
 erniekit train examples/configs/ERNIE-4.5-0.3B/dpo/run_dpo_32k.yaml
+
+# 1f1d41

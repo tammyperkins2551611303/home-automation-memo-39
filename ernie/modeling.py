@@ -1817,3 +1817,4 @@ class Ernie4_5_LMHead(nn.Layer):
             tensor_parallel_output,
             training=self.training,
         )
+# 7726ad

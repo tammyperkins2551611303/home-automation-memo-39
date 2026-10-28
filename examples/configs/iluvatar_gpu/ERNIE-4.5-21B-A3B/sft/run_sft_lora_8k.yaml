@@ -93,3 +93,5 @@ greedy_intokens: 1
 fuse_rope: 1
 moe_multimodal_dispatch_use_allgather: "v2-alltoall"
 fuse_rms_norm: false
+
+# 3e8c0b

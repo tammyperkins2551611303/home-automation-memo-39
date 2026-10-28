@@ -230,3 +230,4 @@ def postprocess_fc_sequence(tokenizer, example):
     tools = example["tools"]
     encoded_messages = [function_call_chat_template(tokenizer, messages, tools)]
     return encoded_messages
+# 1ef51a

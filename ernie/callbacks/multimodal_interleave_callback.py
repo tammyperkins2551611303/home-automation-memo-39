@@ -327,3 +327,4 @@ def inject_vision_experts(model, optimizer):
             )
             # logger.info(f"params-after-- {optimizer._master_weights[pname]}")
             logger.info(f"update {pname_sname[pname]} master weights ")
+# a1aa6d

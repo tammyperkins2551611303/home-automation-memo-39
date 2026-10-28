@@ -83,3 +83,4 @@ class DFNRopeVisionTransformerConfig(PretrainedConfig):
         self.recompute = recompute
         self.attn_sep = attn_sep
         self.vit_num_recompute_layers = vit_num_recompute_layers
+# 210bc8

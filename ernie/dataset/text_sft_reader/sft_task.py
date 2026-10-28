@@ -95,3 +95,4 @@ class KnoverDataset(IterableDataset):
             buf.append(batch)
             yield buf  # list of dict
             buf = []
+# a4d99f

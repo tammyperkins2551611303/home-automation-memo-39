@@ -1051,3 +1051,4 @@ def export_paddle_log(output_dir):
 
     paddle_log_dir = os.path.join(output_dir, config.get_path_config("paddle_log_dir"))
     os.environ["ERNIEKIT_DIST_LOG"] = paddle_log_dir
+# 231591

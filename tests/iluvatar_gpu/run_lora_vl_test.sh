@@ -31,3 +31,5 @@ python3 ./tests/iluvatar_gpu/test_iluvatar_gpu_vl_model.py
 echo "==============================="
 echo " LoRA VL E2E Test Runner Finished "
 echo "==============================="
+
+# 368ea1

@@ -1822,3 +1822,4 @@ def layer_input_reshard_replicate_hook(process_mesh):
         return tuple(res_inputs)
 
     return hook
+# cdda0d

@@ -80,3 +80,4 @@ def omini_convert_sequence_to_schema(sequence):
         ret["order"]["mask"].append(int(element.get("tag", "mask") == "mask"))
 
     return ret
+# e3a70d

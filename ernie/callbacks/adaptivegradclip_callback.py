@@ -124,3 +124,4 @@ class ClipGradByAdaptiveNormCallback(TrainerCallback):
             path = os.path.join(output_dir, "adaptivenorm_clip_state.pth")
         logger.info(f"Saving randompos rng state to {path}")
         paddle.save(optimizer._grad_clip.state_dict(), path)
+# 41dd8d

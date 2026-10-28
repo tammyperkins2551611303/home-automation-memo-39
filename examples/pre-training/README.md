@@ -25,3 +25,4 @@ should be replaced according to the real environment.
 
 
 The toolkit provides a high-performance implementation of ERNIE-4.5-300B-A47B pre-training, including the hybrid parallelism training strategy and FP8 mixed precision optimization. More advanced optimizations are on the way.
+

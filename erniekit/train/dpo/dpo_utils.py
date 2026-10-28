@@ -89,3 +89,4 @@ def calculate_effective_tokens(training_args, train_dataset, max_seq_len):
     total_tokens = total_batch * max_seq_len
 
     return total_effective_tokens, total_tokens
+# 4bc1cc

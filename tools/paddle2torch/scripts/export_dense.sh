@@ -20,3 +20,5 @@ python tools/paddle2torch/tran_4_5t.py \
     --dest_dir $TORCH_MODEL_PATH \
     --src_prefix "ernie." \
     --dst_prefix "model."
+
+# 235c9e

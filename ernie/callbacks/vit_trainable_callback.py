@@ -383,3 +383,4 @@ class VitTrainableCallback(TrainerCallback):
         self.images_buffer = []
         self.images_features = []
         # showmem("____optimizer_end")
+# 67d5b2

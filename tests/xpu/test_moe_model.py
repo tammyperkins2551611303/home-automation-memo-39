@@ -472,3 +472,4 @@ def test_sft_lora_128K():
 #     process_server = run_update_config_training(config, steps="server")
 #     process_chat = run_update_config_training(config, steps="chat")
 #     run_check_fastdeploy_infer(process_server, process_chat)
+# 5b6b00

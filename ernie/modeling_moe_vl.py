@@ -1443,3 +1443,4 @@ class Ernie4_5_VLMoeForConditionalGeneration(Ernie4_5_MoeForCausalLM):
                 state_keys_real.remove(state_keys_map[key])
 
         return state_keys_map
+# 7f7fee

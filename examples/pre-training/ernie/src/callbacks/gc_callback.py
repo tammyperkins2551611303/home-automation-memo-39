@@ -25,3 +25,4 @@ class GCCallback(TrainerCallback):
     def on_step_end(self, args, state, control, **kwargs):
         if args.gc_interval > 0 and (state.global_step % args.gc_interval == 0):
             gc.collect()
+# 41d8db

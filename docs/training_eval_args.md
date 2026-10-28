@@ -186,3 +186,4 @@ Each parameter is documented with its type, default value and detailed descripti
 | `tensorwise_offload_optimizer` | bool | False | Offload optimizer to reduce memory |
 | `apply_online_actscale_step` | bool | 200 | Dynamic quantization scale steps |
 | `optim_shard_num` | int | 1 | Split optimizer state files during saving to avoid memory OOM. Works only when `unified_checkpoint_config: ignore_merge_optimizer`. |
+

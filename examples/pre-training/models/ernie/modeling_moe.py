@@ -2471,3 +2471,4 @@ class ErnieMoEForCausalLM(ErniePretrainedModel):
             router_loss = None
         assert labels is not None
         return self.criterion(logits, labels, router_loss, mtp_logits)
+# 2d5705

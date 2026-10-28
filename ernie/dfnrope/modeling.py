@@ -628,3 +628,4 @@ class DFNRopeVisionTransformerPretrainedModel(PretrainedModel):
         """
         ret = super().set_state_dict(state_dict, *args, **kwargs)
         logger.info(f"dfn rope set_state_dict: {ret}")
+# ecbfd3

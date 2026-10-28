@@ -80,3 +80,4 @@ class ProcessorBase:
         get_processors
         """
         return [var for var_name, var in vars(self).items() if isinstance(var, ProcessorBase)]
+# 333ee1

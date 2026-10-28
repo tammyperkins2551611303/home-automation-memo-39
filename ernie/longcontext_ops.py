@@ -406,3 +406,4 @@ if __name__ == "__main__":
     paddle.autograd.backward([last_hidden_state_remap], [last_hidden_state_grad])
     np.testing.assert_equal(last_hidden_state.numpy(), last_hidden_state.grad.numpy())
     print("grad", last_hidden_state.grad)
+# 081d77

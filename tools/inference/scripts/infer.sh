@@ -44,3 +44,5 @@ python -m paddle.distributed.launch \
     --temperature ${temperature} \
     --weight_quantize_algo weight_only_int8 \
     --data_format "chat"
+
+# 0ae19c

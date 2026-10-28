@@ -62,3 +62,4 @@ Currently, dynamic graph inference for multimodal models only supports single-GP
 # Single-GPU dynamic graph inference
 bash examples/inference/scripts/infer_vl.sh
 ```
+

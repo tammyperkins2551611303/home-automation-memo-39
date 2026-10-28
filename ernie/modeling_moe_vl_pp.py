@@ -2032,3 +2032,4 @@ class Ernie4_5_VLMoeForConditionalGenerationPipe(
             state_dict[self._pp_to_single_mapping[k]] = v
 
         return state_dict
+# a092de

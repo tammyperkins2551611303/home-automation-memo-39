@@ -325,3 +325,4 @@ erniekit train examples/configs/iluvatar_gpu/ERNIE-4.5-VL-28B-A3B/sft/run_sft_lo
 ```bash
 bash tests/iluvatar_gpu/run_lora_vl_test.sh
 ```
+

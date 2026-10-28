@@ -16,3 +16,5 @@ temperature: 0.95
 # device
 device: xpu
 fuse_rms_norm: false
+
+# cf6abb
